@@ -23,3 +23,6 @@ alias findgrep='grepfind'
 alias mann='man'
 alias updtae='update'
 alias vmi='vim'
+
+# git
+alias gh='git hist'
