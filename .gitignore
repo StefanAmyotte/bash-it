@@ -9,6 +9,7 @@
 #plugins/custom.plugins.bash
 *.swp
 .*.un~
+custom
 custom/done.txt
 custom/plugin.bash
 custom/report.txt
