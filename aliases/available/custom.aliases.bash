@@ -1,13 +1,5 @@
 # bin paths
-export PATH=$PATH:/home/stefan/bin/scala/bin
-export PATH=$PATH:/home/stefan/bin/bro/bin
-export PATH=$PATH:/home/stefan/bin/node/bin
-export PATH=$PATH:/home/stefan/bin/phantomjs/bin
-
 alias fucking=sudo
-alias c2='ssh phirelight@c2'
-alias analytics='ssh phirelight@analytics'
-alias portal='ssh phirelight@portal'
 alias h='history | grep $1'
 
 # common mispelled commands
