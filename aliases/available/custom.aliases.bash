@@ -1,4 +1,3 @@
-# bin paths
 alias fucking=sudo
 alias h='history | grep $1'
 
