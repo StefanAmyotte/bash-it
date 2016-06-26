@@ -22,7 +22,10 @@ alias q='exit'
 
 alias irc="$IRC_CLIENT"
 
+# Language aliases
 alias rb='ruby'
+alias py='python'
+alias ipy='ipython'
 
 alias ..='cd ..'         # Go up one directory
 alias ...='cd ../..'     # Go up two directories

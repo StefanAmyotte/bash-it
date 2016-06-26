@@ -1,3 +1,4 @@
+.atom-build.json
 */enabled/*
 .DS_Store
 .rvmrc
@@ -14,3 +15,5 @@ custom/done.txt
 custom/plugin.bash
 custom/report.txt
 custom/todo.txt
+bats
+.idea
