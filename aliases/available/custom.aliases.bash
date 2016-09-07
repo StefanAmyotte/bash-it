@@ -17,6 +17,7 @@ alias vmi='vim'
 
 # git
 alias gh='git hist'
+alias gs='git status'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
