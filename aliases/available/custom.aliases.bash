@@ -31,7 +31,7 @@ fi
 
 # advanced ls functions
 alias l="ls -1"
-alias la='ls -A'
+alias la='ls -la'
 alias ll='ls -haltr'
 alias lx='ls -lXB'         # sort by extension
 alias lk='ls -lSr'         # sort by size, biggest last

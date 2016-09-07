@@ -43,10 +43,10 @@ prompt() {
 		# Yes, the indenting on these is weird, but it has to be like
 		# this otherwise it won't display properly.
 
-		PS1="${TITLEBAR}${bold_red}┌─[${Black}\t${reset_color}][${cyan}$(t | wc -l | sed -e's/ *//')${reset_color}]${reset_color}$(modern_scm_prompt)[${cyan}\w${normal}]$(is_vim_shell)
+		PS1="${TITLEBAR}${bold_red}┌─[${White}\t${reset_color}][${cyan}$(t | wc -l | sed -e's/ *//')${reset_color}]${reset_color}$(modern_scm_prompt)[${cyan}\w${normal}]$(is_vim_shell)
 ${bold_red}└─▪${normal} "
 	else
-		PS1="${TITLEBAR}┌─[${Black}\t${reset_color}][${cyan}$(t | wc -l | sed -e's/ *//')${reset_color}]$(modern_scm_prompt)[${cyan}\w${normal}]$(is_vim_shell)
+		PS1="${TITLEBAR}┌─[${White}\t${reset_color}][${cyan}$(t | wc -l | sed -e's/ *//')${reset_color}]$(modern_scm_prompt)[${cyan}\w${normal}]$(is_vim_shell)
 └─▪ "
 	fi
 }
